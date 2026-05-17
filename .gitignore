@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+
+# Build folders
+dist/
+frontend/dist/
+
+# Environment variables
+.env
+.env.local
+.env.example
+backend/.env
+frontend/.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Vite cache
+.vite/
+
+# Go binaries / temp
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+tmp/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+mnt/
+coverage/

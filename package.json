@@ -1,0 +1,14 @@
+{
+  "name": "flash-poll-go-postgres",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Flash-Poll full-stack app with Go, PostgreSQL, React, and Vite",
+  "scripts": {
+    "install:all": "npm install --prefix frontend && cd backend && go mod download",
+    "dev:backend": "cd backend && go run .",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "start": "cd backend && go run .",
+    "build:backend": "cd backend && go build -o flashpoll-backend.exe .",
+    "build": "npm run build --prefix frontend && npm run build:backend"
+  }
+}

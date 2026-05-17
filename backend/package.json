@@ -1,0 +1,11 @@
+{
+  "name": "flash-poll-go-backend",
+  "version": "1.0.0",
+  "description": "Flash-Poll backend - Go + PostgreSQL",
+  "private": true,
+  "scripts": {
+    "dev": "go run .",
+    "start": "go run .",
+    "build": "go build -o flashpoll-backend.exe ."
+  }
+}
