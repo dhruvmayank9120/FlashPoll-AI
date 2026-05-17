@@ -1,5 +1,7 @@
 # FlashPoll
 
+LIVE_LINK:https://flash-poll-ai.vercel.app/
+
 FlashPoll is a full-stack real-time polling app for internal team decisions.
 
 - Frontend: React + Vite + Tailwind + MUI
